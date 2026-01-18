@@ -20,7 +20,7 @@ export default function AuthPage() {
       <Card className="w-full max-w-md">
         <CardHeader>
           <CardTitle className="text-center text-2xl">
-            {session ? 'Welcome Back' : 'Welcome to GeminiChat'}
+            {session ? 'Welcome Back' : 'welcome'}
           </CardTitle>
         </CardHeader>
 
@@ -42,7 +42,7 @@ export default function AuthPage() {
           ) : (
             <>
               <p className="text-center text-gray-600">
-                Sign in to start chatting with Gemini
+                Sign in to start chatting with Bro
               </p>
 
               <Button
